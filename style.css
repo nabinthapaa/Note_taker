@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jockey+One&family=Nova+Round&family=Pushster&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgba(180, 96, 63, 0.897);
+}
+h1,h3{
+    text-align: center;
+    color: beige;
+    font-family: 'Pushter';
+    font-weight: 500;
+    font-size: 42px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+h3{
+    text-align: center;
+    color: beige;
+    font-family: 'Nova Round';
+    font-weight: 400;
+    font-size: 28px;
+}
+h4{
+    text-align: center;
+    color: black;
+    font-family: 'Nova Round';
+    font-weight: 400;
+    font-size: 28px;
+}
+#containeer{
+    margin: 10px auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border:0.01px solid rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    width: fit-content;
+    align-self: center;
+    flex-direction: column;
+    transition: 0.4s ease;
+}
+#label{
+    display: flex;
+    flex-direction: row;
+}
+#containeer:hover{
+    transform: scale(1.1); 
+}
+p,textarea{
+    margin: 5px;
+    
+}
+p{
+    margin: auto;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    font-size: 40px;
+}
+textarea{
+    padding: 15px;
+    resize: none;
+    border:0.01px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    outline: none;
+    overflow: hidden;
+    width: 90%;
+    height: 100px;
+    font-size: 24px;
+    transition: 0.4s ease;
+}
+textarea:hover{
+    transform: scale(1.01); 
+}
+textarea::placeholder{
+    color:black;
+    letter-spacing: 2px;
+    font-family: 'Nova Round';
+    font-size: 28px;
+}
+input{
+    margin: 10px 0 0 100px;
+    width:360px;
+}
+button, input{
+    font-family: 'Nova Round';
+    text-transform: uppercase;
+    border-radius: 25px;
+    height: 40px;
+    border-style: none;
+    background-color: ivory;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    letter-spacing: 3px;
+    transition: 0.4s ease;
+}
+button{
+    width: 200px;
+    margin: 100px;
+}
+button:hover, input:hover{
+    cursor: pointer;
+    border-radius: 5px;
+    transform: scale(1.06); 
+}
+#error{
+    margin: 10px;
+    font-family: 'Nova Round';
+    color: rgba(235, 53, 53, 0.884);
+    font-weight: 600;
+}
+.noteContaineer{
+    display: flex;
+    padding: 10px;
+    margin: 45px 40px;
+    align-items: center;
+    justify-items: center;
+    flex-flow:column wrap;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border:0.01px solid rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    transition: 0.5s ease;
+    height: fit-content;
+}
+.noteContaineer:hover {
+    transform: scale(1.3); 
+  }
+.test{
+    align-self: flex-start;
+    display: inline-block;
+    width: 400px;
+    height: fit-content;
+    margin-left: 20px;
+
+}
+.view{
+    margin: 15px 0 0 0;
+    padding: 5px;
+    text-align: center;
+}
+.n{
+    display: flex;
+    margin:10px 10px;
+    flex-wrap: wrap;
+    width: fit-content;
+    text-align: center;
+    color: beige;
+    font-family: 'Nova Round';
+    font-weight: 400;
+    font-size: 28px;
+}
+.shadow{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    letter-spacing: 10px;
+    width: 100%;
+}
+.test{
+    text-align:left;
+    color: black;
+    font-family: sans-serif;
+}
+.viewButton{
+    display: flex;
+    justify-content: space-evenly ;
+    flex-direction: column;
+}
+
+
